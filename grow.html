@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a website for vegitables and health.">
+    <meta name="keywords" content="htnl,css,vegitable,health,greenry,good">
+    <meta name="author" content="Muhammad Abrar">
+    <link
+    rel="shortcut icon"
+    href="assets/favicon.png"
+    type="image/x-icon"
+  />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Vegi-Vegi</title>
+</head>
+<body>
+    <nav>
+        <div class="logo"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqViBCAHDhI-nft5OrjwhgxiY06MQuC2V0anq0J772Pg&s" alt="logo">
+        <span>Vegi-Vegi</span>
+        </div>
+        <ul>
+           <li class="list"><a href="index.html">Home</a></li>
+            <li class="list"><a href="about.html">About</a</li>
+            <li class="list"><a href="types.html">Types</a></li>
+            <li class="list"><a href="benefits.html">Benifits</a></li>
+            <li class="list"><a href="grow.html">Grow Us</a></li>
+            <!-- <i class="fa fa-bars" style="font-size:36px"></i> -->
+        </ul>
+    </nav>
+    <section>
+        <div class="container">
+            <h1>Grow With Us</h1>
+            <form id="contactForm">
+                
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3402.4407441325893!2d74.32373757413666!3d31.484567048912655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391904105ec589ff%3A0x67af359ad6cad4b3!2sModel%20Town%20Park!5e0!3m2!1sen!2s!4v1714911054801!5m2!1sen!2s" 
+        width="45%" 
+        height="450"
+        style="border:0;" 
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        
+    </section>
+    <footer>Copyright © 2024. All Rights Reserved</footer>
+    <!-- <i class="fa fa-times" aria-hidden="true"></i> -->
+    <style>
+        body{
+            width: 100%;
+            height: 100vh;
+        }
+        h1{
+            color: white;
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            font-weight: 900;
+        }
+        label{
+            color: white;
+            font-size: 20px;
+        }
+        input{
+        
+            font-size: 20px;
+            color: white;
+            margin-bottom: 20px;
+            background: transparent;
+            padding: 10px 0;
+            border-radius: 10px;
+            border: green 2px solid;
+            outline: navy;
+        }
+       
+        textarea{
+            font-size: 20px;
+            color: white;
+            margin-bottom: 20px;
+            background: transparent;
+            border: 2px solid green !important;
+            padding: 10px 0;
+            border-radius: 10px;
+            border: none;
+            outline: none;
+        }
+        button{
+            border: green 2px solid;
+            color: green;
+            background: transparent;
+            width: 100px;
+            height: 50px;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .container{
+            width: 45%;
+            display: flex;
+            flex-direction: column;
+        }
+        form{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        iframe{
+            border-radius: 20px;
+          margin-top: 20px;
+        }
+        section{
+            padding:0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        @media (max-width:700px) {
+            section{
+            
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+        iframe{
+            width: 100%;
+        }
+        .container{
+            width: 100%;
+        }
+        body{
+            height: 170vh !important;
+        }
+        }
+    </style>
+   
+</body>
+</html>
